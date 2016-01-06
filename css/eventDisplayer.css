@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("fonts/myriadpro-regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("fonts/myriadpro-bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+
+button,
+.btn-a,
+input[type="submit"] {
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  background: #4bb64f;
+  border: 1px solid #081f09;
+  color: #041205;
+  cursor: pointer;
+  display: block;
+  font-size: 1.16667em;
+  font-weight: bold;
+  height: 20px;
+  line-height: 13px;
+  padding-top: 4px;
+  text-align: center;
+  width: 158px; }
+  button:hover,
+  .btn-a:hover,
+  .occasion .price:hover,
+  input[type="submit"]:hover {
+    background: #6fc572; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: url("images/bg.jpg") center top;
+  font-family: 'Myriad Pro';
+  color: white;
+  font-size: 12px;
+  line-height: 1.4;
+  width: 960px;
+  margin: 0 auto; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin: 1em 0 0.9em 0;
+  font-family: 'Myriad Pro';
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 2.33333em; }
+
+h2 {
+  font-size: 2em; }
+  h2 em {
+    display: block;
+    font-family: 'Myriad Pro';
+    font-size: 0.6em;
+    margin-top: -0.5em; }
+
+h3 {
+  color: #919497;
+  font-size: 1.66667em;
+  line-height: 1.1;
+  margin: 0; }
+
+h4 {
+  margin: 0.9em 0 0 0; }
+
+p {
+  font-size: 14px; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.occasion {
+  background: rgba(37, 43, 48, 0.5);
+  display: inline-block;
+  height: 155px;
+  padding: 12px 20px 15px 20px;
+  position: relative;
+  vertical-align: top;
+  width: 158px; }
+  .occasion.highlighted {
+    background: #252b30; }
+  .occasion + .occasion {
+    margin-left: 36px; }
+  .occasion button {
+    margin: 12px 0; }
+  .occasion .price {
+    background: #82add8;
+    border: 1px solid #191d20;
+    color: #191d20;
+    cursor: default;
+    display: block;
+    font-size: 1.2em;
+    margin: 12px 0;
+    height: 18px;
+    line-height: 18px;
+    width: 156px; }
+    .occasion .price:hover {
+      background: #82add8; }
+
+#events {
+  overflow: hidden; }
+
+#events ul {
+  clear: both;
+  float: left; }
+
+#events #filters {
+  background: rgba(37, 43, 48, 0.5);
+  float: right;
+  margin: 0 60px 20px 0;
+  padding: 10px 8px;
+  text-align: center; }
+  #events #filters button,
+  #events #filters a {
+    background: #252b30;
+    border: 1px solid #121415;
+    color: #8e9aa5;
+    font-weight: bold;
+    height: auto;
+    margin-top: 0;
+    text-decoration: none;
+    text-transform: none;
+    padding: 3px 5px;
+    padding-top: 5px;
+    width: auto; }
+    #events #filters button:hover,
+    #events #filters a:hover {
+      color: #aab3bc; }
+
+#filters li {
+  display: inline-block; }
+  #filters li + li {
+    margin-left: 0.5em; }
+
+.description {
+  display: none;
+  width: 350px;
+  font-size: 14px;
+}
+
+.cancelled-ribbon {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #fff;
+  background: #252b30 ;
+  padding: 0px 57px ;
+  padding-top: 4px;
+
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  opacity: 0.8;
+
+}
